@@ -1,0 +1,27 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+    --purple: #7D1CFE;
+    --blue: #176AFA;
+    --green: #01D393;
+
+    --gradient: linear-gradient(90deg, var(--purple), var(--blue), var(--green));
+
+    --icon-size: 48px;
+    --image-size: 250px;
+}
+
+/* semantic color variables for this project */
+/* TODO define better text colors */
+:root {
+    --color-background: #FFFFFF;
+    --color-text: #000000;
+    --color-placeholder: #333333;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #121212;
+        --color-text: #FFFFFF;
+        --color-placeholder: #AAAAAA;
+    }
+}

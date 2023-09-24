@@ -1,0 +1,86 @@
+@import './base.css';
+
+html, body {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  background: var(--color-background);
+}
+
+h1, p {
+  color: var(--color-text);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.green {
+  color: var(--green);
+}
+
+.gradient {
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+
+@media (max-width: 1250px) {
+  :root {
+    --icon-size: 32px;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+
+@media (max-width: 800px) {
+  :root {
+    --image-size: 150px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}

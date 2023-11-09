@@ -10,9 +10,19 @@ html, body {
   background: var(--color-background);
 }
 
-h1, p {
+h1, p, header, a {
   color: var(--color-text);
   font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: var(--blue);
+  text-decoration: underline;
 }
 
 h1 {
@@ -24,6 +34,10 @@ h1 {
 p {
   font-size: 1.8em;
   font-weight: 300;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .purple {

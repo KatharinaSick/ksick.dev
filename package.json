@@ -12,6 +12,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@octokit/core": "^5.0.2",
+    "add": "^2.0.6",
+    "gray-matter": "^4.0.3",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"

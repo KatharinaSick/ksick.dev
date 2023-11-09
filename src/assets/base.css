@@ -10,6 +10,18 @@
 
     --gradient: linear-gradient(90deg, var(--purple), var(--blue), var(--green));
 
+    --shadow: 0 9px 30px rgba(23, 106, 250, 0.1);
+    --blue-shadow: 0 9px 30px rgba(23, 106, 250, 0.2);
+
     --icon-size: 48px;
     --image-size: 250px;
+
+    --menu-speed: 0.75s;
+    --menu-overlay-color: rgba(18, 18, 18, 0.95);
+    --menu-text-color: #FFFFFF;
+    --menu-disabled-text-color: rgba(255, 255, 255, 0.2);
+    --menu-selected-text-color: #FFFFFF;
+    --menu-purple-background: rgba(125, 28, 254, 0.04);
+    --menu-blue-background: rgba(23, 106, 250, 0.04);
+    --menu-green-background: rgba(1, 211, 147, 0.03);
 }

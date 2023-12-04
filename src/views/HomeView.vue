@@ -1,29 +1,27 @@
 <script lang="ts" setup>
-import Socials from "@/components/SocialIcons.vue";
+import Socials from '@/components/SocialIcons.vue'
 </script>
-
 
 <template>
   <div class="container">
-    <img alt="Katharina Sick" class="smallImage" src="/me-small.webp">
+    <img alt="Katharina Sick" class="smallImage" src="/me-small.webp" />
 
     <div class="contentContainer">
-      <h1 class="title">Hello 👋<br/>I'm <span class="gradient">Katharina</span></h1>
+      <h1 class="title">Hello 👋<br />I'm <span class="gradient">Katharina</span></h1>
 
       <p>
-        I'm all about making things <strong class="purple">user-friendly</strong>, especially when it comes to <strong>Cloud
-        Native and Kubernetes</strong>.
-        <br/><br/>
-        I've done a fair share of mobile app and backend work, but lately, I'm really into <strong class="blue">Cloud
-        Native computing</strong>.
-        <br/><br/>
-        Outside of work, you'll find me hanging out in <strong>tech and sports</strong> <strong class="green">communities</strong>,
-        cruising on inline skates, exploring new places, or challenging myself with quizzes and games.
+        I'm all about making things <strong class="purple">user-friendly</strong>, especially when
+        it comes to <strong>Cloud Native and Kubernetes</strong>. <br /><br />
+        I've done a fair share of mobile app and backend work, but lately, I'm really into
+        <strong class="blue">Cloud Native computing</strong>. <br /><br />
+        Outside of work, you'll find me hanging out in <strong>tech and sports</strong>
+        <strong class="green">communities</strong>, cruising on inline skates, exploring new places,
+        or challenging myself with quizzes and games.
       </p>
 
-      <Socials/>
+      <Socials />
     </div>
-    <img alt="Katharina Sick" class="bigImage" src="/me.webp"/>
+    <img alt="Katharina Sick" class="bigImage" src="/me.webp" />
   </div>
 </template>
 
@@ -100,4 +98,3 @@ import Socials from "@/components/SocialIcons.vue";
   }
 }
 </style>
-

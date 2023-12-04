@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import {RouterView} from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <div class="menuContainer">
-    <input type="checkbox" class="toggler">
+    <input type="checkbox" class="toggler" />
     <div class="hamburger">
       <div></div>
     </div>
@@ -20,17 +20,15 @@ import {RouterView} from 'vue-router'
       </div>
     </div>
   </div>
-  <RouterView/>
+  <RouterView />
 </template>
 
 <style scoped>
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 
 .menuContainer {
   position: fixed;
@@ -188,7 +186,7 @@ import {RouterView} from 'vue-router'
 }
 
 .menuContainer .menu > div > div > ul > li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   transform: translate(-50%, -40%);
@@ -202,7 +200,9 @@ import {RouterView} from 'vue-router'
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 500px;
-  transition: letter-spacing 0.5s, left 0.5s;
+  transition:
+    letter-spacing 0.5s,
+    left 0.5s;
 }
 
 .menuContainer .menu > div > div > ul > li:hover > a:before {
@@ -225,6 +225,4 @@ import {RouterView} from 'vue-router'
 .menuContainer .menu > div > div > ul > li:nth-child(3) > a:before {
   color: var(--menu-green-background);
 }
-
-
 </style>

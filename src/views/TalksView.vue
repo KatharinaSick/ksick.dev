@@ -10,7 +10,7 @@ import matter from "gray-matter";
 const talks = ref([])
 
 const octokit = new Octokit({
-  auth: process.env.VUE_APP_GITHUB_API_KEY
+  auth: import.meta.env.VITE_GITHUB_API_KEY
 })
 
 const getTalks = async () => {

@@ -14,7 +14,7 @@ import Socials from '@/components/SocialIcons.vue'
         it comes to <strong>Cloud Native and Kubernetes</strong>. <br /><br />
         I've done a fair share of mobile app and backend work, but lately, I'm really into
         <strong class="blue">Cloud Native computing</strong>. <br /><br />
-        Outside of work, you'll find me hanging out in <strong>tech and sports</strong>
+        Outside of work, you'll find me hanging out in <strong>tech and sports </strong>
         <strong class="green">communities</strong>, cruising on inline skates, exploring new places,
         or challenging myself with quizzes and games.
       </p>

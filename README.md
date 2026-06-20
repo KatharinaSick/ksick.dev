@@ -1,4 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2adc2508-7973-4925-b2b5-90d4fe35f0cf/deploy-status)](https://app.netlify.com/sites/ksick/deploys)
 # ksick.dev
 
-My personal website. Available at [ksick.dev](https://ksick.dev).
+My personal website. Vibe coded very fast with Claude. This is not an important project, so don't expect clean code or best practices. It works and it reflects who I am, that's enough for me :) 
+
+Built with Vue 3 + Vite + TypeScript, deployed on Netlify.

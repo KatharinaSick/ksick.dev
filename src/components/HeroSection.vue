@@ -1,7 +1,7 @@
 <template>
   <section id="top" class="hero">
     <div class="hero__inner">
-      <p class="hero__label"><span class="gradient-text">// ksick.dev</span></p>
+      <p class="hero__label"><span class="gradient-text">// Katharina Sick</span></p>
       <h1 class="hero__title">
         Hey, I'm Kathi.<br />
         <span class="hero__title--muted">I live in the Cloud Native world.</span>

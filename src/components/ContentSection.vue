@@ -127,7 +127,7 @@ function formatPostDate(dateStr: string) {
           <template #meta>
             <span class="meta-text">Jun 16, 2026</span>
             <span class="meta-sep">·</span>
-            <span class="meta-text">episode 1</span>
+            <span class="meta-label">episode 1</span>
           </template>
         </ContentCard>
       </template>
@@ -245,6 +245,12 @@ function formatPostDate(dateStr: string) {
 }
 
 .meta-text {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.meta-label {
   font-family: var(--font-mono);
   font-size: 12px;
   color: var(--tab-accent, var(--accent));

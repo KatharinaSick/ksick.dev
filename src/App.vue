@@ -17,7 +17,7 @@ import ContactSection from './components/ContactSection.vue'
     <hr class="divider" />
     <ContactSection />
     <footer class="footer">
-      <p>made with vue &amp; a lot of cloud native energy</p>
+      <p>made with vue &amp; ❤️ for open source &nbsp;·&nbsp; © 2026 Katharina Sick</p>
     </footer>
   </main>
 </template>

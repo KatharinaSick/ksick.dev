@@ -29,7 +29,12 @@ function formatMonth(month: string) {
 </template>
 
 <style scoped>
-.month,
+.month {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
 .levels {
   font-family: var(--font-mono);
   font-size: 12px;
